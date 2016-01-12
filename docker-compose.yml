@@ -1,0 +1,7 @@
+registry:
+  build: .
+  links:
+   - redis
+redis:
+  build: ./redis
+
